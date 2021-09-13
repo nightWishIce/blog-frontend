@@ -50,7 +50,7 @@ export default {
       try {
         await axios({
           method : 'POST',
-          url : 'http://localhost:1337/contacts',
+          url : process.env.GRIDSOME_API_URL + '/contacts',
           data : this.from
         })
         window.alert('提交成功')
