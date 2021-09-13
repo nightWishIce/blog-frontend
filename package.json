@@ -9,6 +9,10 @@
   "dependencies": {
     "@gridsome/source-strapi": "^0.2.0",
     "axios": "^0.21.4",
+    "cnpm": "^7.0.0",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^12.2.0"
   }
 }
